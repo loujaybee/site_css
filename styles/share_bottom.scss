@@ -1,0 +1,21 @@
+.sitewrap {
+  #main {
+    #content {
+      #mc_embed_signup {
+        background-color: $color-accent;
+        color: white;
+        #mc-embedded-subscribe {
+          width: 75%;
+          color: black;
+          font-family: Montserrat;
+          text-transform: uppercase;
+          background-color: white;
+          margin: auto;
+          display: block;
+          border: none;
+          letter-spacing: 2px;
+        }
+      }
+    }
+  }
+}

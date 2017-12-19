@@ -1,0 +1,18 @@
+#main {
+  #nav-below {
+    margin-right: 15px;
+    margin-left: 15px;
+    a {
+      box-shadow: 0px 0px 20px $color-grayscale-light;
+      border-radius: 3px;
+      padding: 5px 15px;
+      border: 0px;
+      background-color: $color-main;
+      color: white;
+      background-image: none;
+      text-shadow: none;
+      font-family: Lato;
+      font-size: 0.8em;
+    }
+  }
+}

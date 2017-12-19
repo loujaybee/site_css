@@ -1,0 +1,34 @@
+.sitewrap {
+  #main {
+    header {
+      &.entry-header {
+        h1.entry-title {
+          color: $color-main-dark;
+          margin-top: 0px;
+          margin-bottom: 0px;
+          font-size: 1.8em;
+          border-bottom: 0px;
+          > a {
+            color: $color-main-dark;
+          }
+        }
+        @media only screen and (max-width: 690px) {
+          h1.entry-title {
+            > a {
+              font-size: 1em;
+                hyphens: auto;
+            }
+          }
+        }
+        h3.getnoticed-entry-subtitle {
+          font-family: 'Lato';
+          border: 0px;
+          font-weight: 400;
+          font-style: italic;
+          margin: 0px;
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+#content {
+
+  ul {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 1.1em;
+    font-family: $typography-accent-font;
+    font-weight: 400;
+    font-style: italic;
+    li {
+      margin-bottom: 0.5em;
+    }
+  }
+
+  img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px #cdcdcd;
+  }
+}

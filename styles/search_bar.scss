@@ -1,0 +1,17 @@
+.sitewrap {
+  #main {
+    #searchform {
+      margin-right: 15px;
+      margin-left: 15px;
+      box-shadow: 0px 0px 20px $color-grayscale-light;
+      label {
+        margin-left: 15px;
+      }
+      .field {
+        border-radius: 2px;
+        border: 0px;
+        border-bottom: 1px solid $color-grayscale-light;
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+.sitewrap {
+  #headernav {
+    box-shadow: 4px 2px 5px $color-grayscale-light;
+    background-color: $color-main;
+    header {
+      margin-left: 15px;
+      .site-title {
+        font-family: $typography-header-font;
+        > a {
+          line-height: 1em;
+          font-size: 1.2em;
+          color: $color-accent;
+          cursor: pointer;
+        }
+      }
+      .site-description {
+        font-family: $typography-accent-font;
+        hyphens: auto;
+        letter-spacing: 2px;
+        font-style: italic;
+        font-weight: 900;
+        font-size: 1.3em;
+        color: white;
+      }
+    }
+    #primary-menu {
+      #menu-main {
+        li {
+          a {
+            padding: 15px 13px;
+            color: white;
+            letter-spacing: 1px;
+            font-family: $typography-accent-font;
+            font-weight: 300;
+          }
+          a:hover {
+            background-color: $color-main-light;
+          }
+        }
+      }
+    }
+    /* MOBILE CSS */
+    @media only screen and (max-width: 690px) {
+      header {
+        width: 90%;
+      }
+      .site-header {
+        display: block;
+      }
+      .mobile_actions {
+        position: absolute;
+        right: 0px;
+        top: 32px;
+      }
+    }
+  }
+}

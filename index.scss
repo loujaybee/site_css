@@ -1,0 +1,49 @@
+$color-grayscale-light: lightgrey;
+$color-grayscale-dark: #4c4c4c;
+
+$color-success: #2c9d25;
+$color-success-dark: #166e11;
+
+$color-main-light: #384d8d;
+$color-main: #1c2c5b;
+$color-main-dark: #17244b;
+$color-accent: #37bae5;
+
+$typography-header-font: 'Montserrat';
+$typography-accent-font: 'Lato';
+
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,400,400i,700,900');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900');
+
+@import 'styles/typography';
+@import 'styles/elements';
+@import 'styles/nav_below';
+@import 'styles/components';
+@import 'styles/footer';
+@import 'styles/header';
+@import 'styles/post_header';
+@import 'styles/mobile_nav.scss';
+@import 'styles/disqus';
+@import 'styles/sidebar';
+@import 'styles/sidebar_subscribe';
+@import 'styles/share_bottom';
+@import 'styles/search_bar';
+
+.bitnami-corner-image-div {
+  display: none;
+}
+
+.hentry {
+  blockquote {
+    font-size: initial;
+    div {
+      text-align: left;
+      font-size: initial;
+    }
+  }
+}
+
+body {
+  background-color: whitesmoke !important;
+}

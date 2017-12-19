@@ -1,0 +1,58 @@
+#secondary {
+  aside {
+    &.widget_getnoticed_subscribe {
+      border: 1px solid #e2e2e2 !important;
+      padding: 0px;
+      p {
+        margin-bottom: 5px;
+        text-align: center;
+        font-family: $typography-header-font;
+        font-size: 1.3em;
+        letter-spacing: 2px;
+        font-style: initial;
+        color: $color-main;
+      }
+      .content {
+        background-color: $color-accent !important;
+        padding-right: 30px;
+      }
+      .formwrap {
+        color: white;
+        .indicates-required {
+          display: none;
+        }
+        #mc-embedded-subscribe-form {
+          background: $color-accent;
+        }
+        .mc-field-group {
+          label {
+            font-size: 1.2em;
+            text-transform: uppercase;
+            font-family: $typography-accent-font;
+          }
+          input {
+            height: 40px;
+            border: 0px;
+            border-radius: 0px;
+          }
+          margin-top: 0px;
+          padding-bottom: 0px;
+          margin-right: 0px;
+          width: 100%;
+        }
+        #mc-embedded-subscribe.button {
+          text-transform: uppercase;
+          margin: auto;
+          width: 100%;
+          margin-bottom: 15px;
+          border: none;
+          background: white;
+          box-shadow: none !important;
+          color: #363333 !important;
+          font-family: Montserrat;
+          letter-spacing: 1px;
+        }
+      }
+    }
+  }
+}

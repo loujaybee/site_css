@@ -1,0 +1,23 @@
+#ocnav {
+  font-family: $typography-accent-font;
+  h3 {
+    background-color: $color-main;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 1.5em;
+  }
+  li {
+    a {
+      background-color: $color-main-light;
+      font-family: $typography-accent-font;
+
+      background-color: #384d8d;
+      font-style: italic;
+      color: white !important;
+      font-size: 1.2em;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+  }
+}
