@@ -3,24 +3,29 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:900");
 #content {
   line-height: 1.6em;
-  font-family: 'Lora';
-  font-size: 1.2em; }
-  #content strong {
-    color: #4c4c4c;
-    text-transform: uppercase;
-    font-family: Montserrat;
-    font-style: initial; }
-  #content blockquote span {
-    line-height: 1.6em;
-    font-size: 20px; }
-  #content h1, #content h2, #content h3 {
-    border-bottom: 1px solid lightgrey;
-    color: #4c4c4c;
-    font-family: "Montserrat";
-    margin-bottom: 15px;
-    margin-top: 40px; }
-  #content h2 {
-    font-weight: 900; }
+  font-family: "Lora";
+  font-size: 1.2em;
+}
+#content strong {
+  color: #4c4c4c;
+  text-transform: uppercase;
+  font-family: Montserrat;
+  font-style: initial;
+}
+#content blockquote span {
+  line-height: 1.6em;
+  font-size: 20px;
+}
+#content h1, #content h2, #content h3 {
+  border-bottom: 1px solid lightgrey;
+  color: #4c4c4c;
+  font-family: "Montserrat";
+  margin-bottom: 15px;
+  margin-top: 40px;
+}
+#content h2 {
+  font-weight: 900;
+}
 
 #content ul {
   margin-top: 20px;
@@ -29,67 +34,84 @@
   font-size: 1.1em;
   font-family: "Lato";
   font-weight: 400;
-  font-style: italic; }
-  #content ul li {
-    margin-bottom: 0.5em; }
+  font-style: italic;
+}
+#content ul li {
+  margin-bottom: 0.5em;
+}
 #content img {
   margin-top: 20px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+}
 #content #content img.crp_thumb.crp_featured {
-  margin: 0px; }
+  margin: 0px;
+}
 
 #main #nav-below {
   margin-right: 15px;
-  margin-left: 15px; }
-  #main #nav-below a {
-    box-shadow: 0px 0px 20px lightgrey;
-    border-radius: 3px;
-    padding: 5px 15px;
-    border: 0px;
-    background-color: #1c2c5b;
-    color: white;
-    background-image: none;
-    text-shadow: none;
-    font-family: Lato;
-    font-size: 0.8em; }
+  margin-left: 15px;
+}
+#main #nav-below a {
+  box-shadow: 0px 0px 20px lightgrey;
+  border-radius: 3px;
+  padding: 5px 15px;
+  border: 0px;
+  background-color: #1c2c5b;
+  color: white;
+  background-image: none;
+  text-shadow: none;
+  font-family: Lato;
+  font-size: 0.8em;
+}
 
 .sitewrap #main article {
   border-radius: 0px;
   margin-left: 15px;
-  margin-right: 15px; }
-  .sitewrap #main article .continue-link {
-    background-color: #2c9d25;
-    border-radius: 2px;
-    padding: 5px 20px;
-    border-bottom: 3px solid #166e11;
-    cursor: pointer; }
-    .sitewrap #main article .continue-link:hover {
-      background-color: #166e11; }
-    .sitewrap #main article .continue-link > a {
-      font-family: "Lato";
-      color: white;
-      font-size: 1.2em; }
+  margin-right: 15px;
+}
+.sitewrap #main article .continue-link {
+  background-color: #2c9d25;
+  border-radius: 2px;
+  padding: 5px 20px;
+  border-bottom: 3px solid #166e11;
+  cursor: pointer;
+}
+.sitewrap #main article .continue-link:hover {
+  background-color: #166e11;
+}
+.sitewrap #main article .continue-link > a {
+  font-family: "Lato";
+  color: white;
+  font-size: 1.2em;
+}
 .sitewrap #main #content #mc_embed_signup {
   background-color: #37bae5;
-  color: white; }
+  color: white;
+}
 .sitewrap #main #content .comment-reminder {
   font-size: 1.2em;
   margin-bottom: 0px;
   border-top: 1px solid lightgrey;
   border-bottom: 1px solid lightgrey;
-  padding: 10px; }
+  padding: 10px;
+}
 .sitewrap #main #content .getnoticed_shareable {
-  margin-bottom: 0px; }
-  .sitewrap #main #content .getnoticed_shareable .actions {
-    margin: 0px; }
-    .sitewrap #main #content .getnoticed_shareable .actions li {
-      list-style-type: none; }
+  margin-bottom: 0px;
+}
+.sitewrap #main #content .getnoticed_shareable .actions {
+  margin: 0px;
+}
+.sitewrap #main #content .getnoticed_shareable .actions li {
+  list-style-type: none;
+}
 .sitewrap #main #content ul li {
   background: none;
   list-style-type: initial;
-  padding-left: 0px; }
+  padding-left: 0px;
+}
 .sitewrap #main #content .entry-content {
-  margin-top: 0px; }
+  margin-top: 0px;
+}
 
 footer#colophon {
   background-color: #384d8d;
@@ -98,196 +120,244 @@ footer#colophon {
   color: white;
   font-size: 1.1em;
   font-style: italic;
-  font-family: "Lato"; }
+  font-family: "Lato";
+}
 
 .sitewrap #headernav {
   box-shadow: 4px 2px 5px lightgrey;
   background-color: #1c2c5b;
-  /* MOBILE CSS */ }
+  padding-bottom: 15px;
+  box-shadow: 5px 5px 5px #e6e6e6;
+  /* MOBILE CSS */
+}
+.sitewrap #headernav header {
+  margin-left: 15px;
+}
+.sitewrap #headernav header .site-title {
+  font-family: "Montserrat";
+}
+.sitewrap #headernav header .site-title > a {
+  line-height: 1em;
+  font-size: 1.2em;
+  color: #37bae5;
+  cursor: pointer;
+}
+.sitewrap #headernav header .site-description {
+  font-family: "Lato";
+  hyphens: auto;
+  letter-spacing: 2px;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 1.3em;
+  color: white;
+}
+.sitewrap #headernav #primary-menu #menu-main li a {
+  padding: 15px 13px;
+  color: white;
+  letter-spacing: 1px;
+  font-family: "Lato";
+  font-weight: 300;
+}
+.sitewrap #headernav #primary-menu #menu-main li a:hover {
+  background-color: #384d8d;
+}
+@media only screen and (max-width: 690px) {
   .sitewrap #headernav header {
-    margin-left: 15px; }
-    .sitewrap #headernav header .site-title {
-      font-family: "Montserrat"; }
-      .sitewrap #headernav header .site-title > a {
-        line-height: 1em;
-        font-size: 1.2em;
-        color: #37bae5;
-        cursor: pointer; }
-    .sitewrap #headernav header .site-description {
-      font-family: "Lato";
-      hyphens: auto;
-      letter-spacing: 2px;
-      font-style: italic;
-      font-weight: 900;
-      font-size: 1.3em;
-      color: white; }
-  .sitewrap #headernav #primary-menu #menu-main li a {
-    padding: 15px 13px;
-    color: white;
-    letter-spacing: 1px;
-    font-family: "Lato";
-    font-weight: 300; }
-  .sitewrap #headernav #primary-menu #menu-main li a:hover {
-    background-color: #384d8d; }
-  @media only screen and (max-width: 690px) {
-    .sitewrap #headernav header {
-      width: 90%; }
-    .sitewrap #headernav .site-header {
-      display: block; }
-    .sitewrap #headernav .mobile_actions {
-      position: absolute;
-      right: 0px;
-      top: 32px; } }
+    width: 90%;
+  }
+  .sitewrap #headernav .site-header {
+    display: block;
+  }
+  .sitewrap #headernav .mobile_actions {
+    position: absolute;
+    right: 0px;
+    top: 32px;
+  }
+}
 
 .sitewrap #main header.entry-header h1.entry-title {
   color: #17244b;
   margin-top: 0px;
   margin-bottom: 0px;
   font-size: 1.8em;
-  border-bottom: 0px; }
-  .sitewrap #main header.entry-header h1.entry-title > a {
-    color: #17244b; }
+  border-bottom: 0px;
+}
+.sitewrap #main header.entry-header h1.entry-title > a {
+  color: #17244b;
+}
 @media only screen and (max-width: 690px) {
   .sitewrap #main header.entry-header h1.entry-title > a {
     font-size: 1em;
-    hyphens: auto; } }
+    hyphens: auto;
+  }
+}
 .sitewrap #main header.entry-header h3.getnoticed-entry-subtitle {
-  font-family: 'Lato';
+  font-family: "Lato";
   border: 0px;
   font-weight: 400;
   font-style: italic;
   margin: 0px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+}
 
 #ocnav {
-  font-family: "Lato"; }
-  #ocnav h3 {
-    background-color: #1c2c5b;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: white;
-    font-size: 1.5em; }
-  #ocnav li a {
-    background-color: #384d8d;
-    font-family: "Lato";
-    background-color: #384d8d;
-    font-style: italic;
-    color: white !important;
-    font-size: 1.2em;
-    font-weight: 600;
-    letter-spacing: 1px; }
+  font-family: "Lato";
+}
+#ocnav h3 {
+  background-color: #1c2c5b;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: white;
+  font-size: 1.5em;
+}
+#ocnav li a {
+  background-color: #384d8d;
+  font-family: "Lato";
+  background-color: #384d8d;
+  font-style: italic;
+  color: white !important;
+  font-size: 1.2em;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
 
 #disqus_thread {
   margin-left: 15px;
   margin-right: 15px;
-  box-shadow: 0px 0px 20px lightgrey; }
+  box-shadow: 0px 0px 20px lightgrey;
+}
 
 #secondary aside {
   margin-left: 15px;
   margin-right: 15px;
-  box-shadow: 0px 0px 20px lightgrey; }
-  #secondary aside#getnoticed_advancedtext-lou-sidebar {
-    border: 0px; }
-    #secondary aside#getnoticed_advancedtext-lou-sidebar .textwidget {
-      padding: 0px; }
-      #secondary aside#getnoticed_advancedtext-lou-sidebar .textwidget img {
-        width: 100%;
-        margin-bottom: -10px; }
-  #secondary aside .widget-title {
-    background-color: #384d8d;
-    color: white;
-    letter-spacing: 1px;
-    font-size: 1em;
-    font-family: "Lato";
-    font-weight: 300; }
-  #secondary aside.widget,
-  #secondary aside ul,
-  #secondary aside .textwidget {
-    font-family: "Lato";
-    font-size: 1.2em;
-    line-height: 1.3em;
-    font-style: italic; }
+  box-shadow: 0px 0px 20px lightgrey;
+}
+#secondary aside#getnoticed_advancedtext-lou-sidebar {
+  border: 0px;
+}
+#secondary aside#getnoticed_advancedtext-lou-sidebar .textwidget {
+  padding: 0px;
+}
+#secondary aside#getnoticed_advancedtext-lou-sidebar .textwidget img {
+  width: 100%;
+  margin-bottom: -10px;
+}
+#secondary aside .widget-title {
+  background-color: #384d8d;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 1em;
+  font-family: "Lato";
+  font-weight: 300;
+}
+#secondary aside.widget,
+#secondary aside ul,
+#secondary aside .textwidget {
+  font-family: "Lato";
+  font-size: 1.2em;
+  line-height: 1.3em;
+  font-style: italic;
+}
 
 #secondary aside.widget_getnoticed_subscribe {
   border: 1px solid #e2e2e2 !important;
-  padding: 0px; }
-  #secondary aside.widget_getnoticed_subscribe p {
-    margin-bottom: 5px;
-    text-align: center;
-    font-family: "Montserrat";
-    font-size: 1.3em;
-    letter-spacing: 2px;
-    font-style: initial;
-    color: #1c2c5b; }
-  #secondary aside.widget_getnoticed_subscribe .content {
-    background-color: #37bae5 !important;
-    padding-right: 30px; }
-  #secondary aside.widget_getnoticed_subscribe .formwrap {
-    color: white; }
-    #secondary aside.widget_getnoticed_subscribe .formwrap .indicates-required {
-      display: none; }
-    #secondary aside.widget_getnoticed_subscribe .formwrap #mc-embedded-subscribe-form {
-      background: #37bae5; }
-    #secondary aside.widget_getnoticed_subscribe .formwrap .mc-field-group {
-      margin-top: 0px;
-      padding-bottom: 0px;
-      margin-right: 0px;
-      width: 100%; }
-      #secondary aside.widget_getnoticed_subscribe .formwrap .mc-field-group label {
-        font-size: 1.2em;
-        text-transform: uppercase;
-        font-family: "Lato"; }
-      #secondary aside.widget_getnoticed_subscribe .formwrap .mc-field-group input {
-        height: 40px;
-        border: 0px;
-        border-radius: 0px; }
-    #secondary aside.widget_getnoticed_subscribe .formwrap #mc-embedded-subscribe.button {
-      text-transform: uppercase;
-      margin: auto;
-      width: 100%;
-      margin-bottom: 15px;
-      border: none;
-      background: white;
-      box-shadow: none !important;
-      color: #363333 !important;
-      font-family: Montserrat;
-      letter-spacing: 1px; }
+  padding: 0px;
+}
+#secondary aside.widget_getnoticed_subscribe p {
+  margin-bottom: 5px;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 1.3em;
+  letter-spacing: 2px;
+  font-style: initial;
+  color: #1c2c5b;
+}
+#secondary aside.widget_getnoticed_subscribe .content {
+  background-color: #37bae5 !important;
+  padding-right: 30px;
+}
+#secondary aside.widget_getnoticed_subscribe .formwrap {
+  color: white;
+}
+#secondary aside.widget_getnoticed_subscribe .formwrap .indicates-required {
+  display: none;
+}
+#secondary aside.widget_getnoticed_subscribe .formwrap #mc-embedded-subscribe-form {
+  background: #37bae5;
+}
+#secondary aside.widget_getnoticed_subscribe .formwrap .mc-field-group {
+  margin-top: 0px;
+  padding-bottom: 0px;
+  margin-right: 0px;
+  width: 100%;
+}
+#secondary aside.widget_getnoticed_subscribe .formwrap .mc-field-group label {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-family: "Lato";
+}
+#secondary aside.widget_getnoticed_subscribe .formwrap .mc-field-group input {
+  height: 40px;
+  border: 0px;
+  border-radius: 0px;
+}
+#secondary aside.widget_getnoticed_subscribe .formwrap #mc-embedded-subscribe.button {
+  text-transform: uppercase;
+  margin: auto;
+  width: 100%;
+  margin-bottom: 15px;
+  border: none;
+  background: white;
+  box-shadow: none !important;
+  color: #363333 !important;
+  font-family: Montserrat;
+  letter-spacing: 1px;
+}
 
 .sitewrap #main #content #mc_embed_signup {
   background-color: #37bae5;
-  color: white; }
-  .sitewrap #main #content #mc_embed_signup #mc-embedded-subscribe {
-    width: 75%;
-    color: black;
-    font-family: Montserrat;
-    text-transform: uppercase;
-    background-color: white;
-    margin: auto;
-    display: block;
-    border: none;
-    letter-spacing: 2px; }
+  color: white;
+}
+.sitewrap #main #content #mc_embed_signup #mc-embedded-subscribe {
+  width: 75%;
+  color: black;
+  font-family: Montserrat;
+  text-transform: uppercase;
+  background-color: white;
+  margin: auto;
+  display: block;
+  border: none;
+  letter-spacing: 2px;
+}
 
 .sitewrap #main #searchform {
   margin-right: 15px;
   margin-left: 15px;
-  box-shadow: 0px 0px 20px lightgrey; }
-  .sitewrap #main #searchform label {
-    margin-left: 15px; }
-  .sitewrap #main #searchform .field {
-    border-radius: 2px;
-    border: 0px;
-    border-bottom: 1px solid lightgrey; }
+  box-shadow: 0px 0px 20px lightgrey;
+}
+.sitewrap #main #searchform label {
+  margin-left: 15px;
+}
+.sitewrap #main #searchform .field {
+  border-radius: 2px;
+  border: 0px;
+  border-bottom: 1px solid lightgrey;
+}
 
 .bitnami-corner-image-div {
-  display: none; }
+  display: none;
+}
 
 .hentry blockquote {
-  font-size: initial; }
-  .hentry blockquote div {
-    text-align: left;
-    font-size: initial; }
+  font-size: initial;
+}
+.hentry blockquote div {
+  text-align: left;
+  font-size: initial;
+}
 
 body {
-  background-color: whitesmoke !important; }
+  background-color: #f7f7f7 !important;
+}
 
 /*# sourceMappingURL=index.css.map */
