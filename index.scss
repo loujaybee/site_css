@@ -20,8 +20,10 @@ $typography-accent-font: 'Lato';
 @import 'styles/elements';
 @import 'styles/nav_below';
 @import 'styles/components';
+@import 'styles/featured-banner';
 @import 'styles/footer';
 @import 'styles/header';
+@import 'styles/category';
 @import 'styles/post_header';
 @import 'styles/mobile_nav.scss';
 @import 'styles/disqus';
@@ -30,13 +32,18 @@ $typography-accent-font: 'Lato';
 @import 'styles/share_bottom';
 @import 'styles/search_bar';
 
+
 .bitnami-corner-image-div {
   display: none;
 }
 
 .hentry {
   blockquote {
-    font-size: initial;
+    font-size: inherit;
+    font-size: inherit;
+    border-top: 4px solid $color-accent;
+    border-bottom: 4px solid $color-accent;
+    padding: 1em 3.3em;
     div {
       text-align: left;
       font-size: initial;

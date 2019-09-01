@@ -1,0 +1,64 @@
+
+#featured-banner {
+    margin: 15px;
+
+    .section-1, .section-2, .section-3 {
+        cursor: pointer;
+        &:after {
+            content: "Get Started With...";
+            opacity: 0.9;
+            border-radius: 2px;
+            color: #4e4e4e;
+            background-color: white;
+            padding: 1px 10px;
+            margin: 10px;
+            position: absolute;
+            font-family: Lato;
+            font-weight: 900;
+            text-transform: uppercase;
+            font-size: 13px;
+        }
+    }
+
+    .top {
+        .section-1 {
+            background-image: url(https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/logos/serverless-square-icon-text.png);
+            background-size: contain;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-color: #252525;
+            height: 100px;
+            display: block;
+            margin-bottom: 10px;
+
+        }
+    }
+
+    .bottom {
+        font-size: 0px;
+        .section-2 {
+            margin-right: 10px;
+            background-image: url(http://msoliman.me/wp-content/uploads/2017/04/docker-facebook-share.png);
+            background-color: #114a6a;
+            &:after {
+                content: "Learn...";
+            }
+        }
+        .section-3 {
+            background-image: url(https://www.terraform.io/assets/images/og-image-large-e60c82fe.png);
+            background-color: #5f43e9;
+            background-size: cover;
+            &:after {
+                content: "Get to grips with...";
+            }
+        }
+        .section-2, .section-3 {
+            display: inline-block;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center center;
+            width: calc(50% - 5px);
+            height: 100px;
+        }
+    }
+}

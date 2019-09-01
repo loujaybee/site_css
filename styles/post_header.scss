@@ -2,7 +2,11 @@
   #main {
     header {
       &.entry-header {
+        border-bottom: 2px dotted $color-grayscale-light;
+        padding-bottom: 15px;
+        margin-bottom: 20px;
         h1.entry-title {
+          text-align: center;
           color: $color-main-dark;
           margin-top: 0px;
           margin-bottom: 0px;
@@ -22,11 +26,11 @@
         }
         h3.getnoticed-entry-subtitle {
           font-family: 'Lato';
+          text-align: center;
           border: 0px;
           font-weight: 400;
           font-style: italic;
           margin: 0px;
-          margin-bottom: 30px;
         }
       }
     }
