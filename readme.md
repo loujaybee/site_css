@@ -1,4 +1,15 @@
 
+## Creating the CSS
+
+```sass index.scss:index.css --watch```
+
+### Deploying the CSS
+
+* ```sh deploy.sh```
+* Update the header link in the site!
+
+### Misc
+
 Setup ngrok
 
   /Applications/ngrok http 8080
