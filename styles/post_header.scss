@@ -11,6 +11,9 @@
           margin-top: 0px;
           margin-bottom: 0px;
           font-size: 1.8em;
+          @media screen and (max-width: 600px) {
+            font-size: 1.2em;
+          }
           border-bottom: 0px;
           > a {
             color: $color-main-dark;
