@@ -1,0 +1,23 @@
+{
+  "name": "site_css",
+  "version": "1.0.0",
+  "description": "```sass index.scss:index.css --watch```",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loujaybee/site_css.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loujaybee/site_css/issues"
+  },
+  "homepage": "https://github.com/loujaybee/site_css#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
