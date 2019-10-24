@@ -3,8 +3,10 @@
     header {
       &.entry-header {
         border-bottom: 2px dotted $color-grayscale-light;
-        padding-bottom: 15px;
-        margin-bottom: 20px;
+        padding: 50px;
+        @media screen and (max-width: 600px) {
+          padding: 30px;
+        }
         h1.entry-title {
           text-align: center;
           color: $color-main-dark;

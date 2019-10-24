@@ -6,6 +6,12 @@
       border-radius: 5px;
       margin-left: 15px;
       margin-right: 15px;
+      .callout {
+        font-family: inherit;
+        border: 3px solid #37bae5;
+        border-radius: 5px;
+        background-color: #fafafa;
+      }
 
       .continue-link {
         background-color: $color-success;
