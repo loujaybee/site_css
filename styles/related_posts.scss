@@ -1,0 +1,20 @@
+#jp-relatedposts.jp-relatedposts {
+    background-color: #e4e4e4;
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-top: 30px;
+    padding: 100px 30px;
+    border-top: 3px solid #37bae5;
+    border-bottom: 3px solid #37bae5;
+    .jp-relatedposts-items{
+        .jp-relatedposts-post-date, .jp-relatedposts-post-context {
+            display: none !important;
+        }
+    }
+    .jp-relatedposts-items-visual {
+        h4.jp-relatedposts-post-title {
+            font-family: "Montserrat";
+            font-size: 0.9em;
+        }
+    }
+}
