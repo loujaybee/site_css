@@ -77,7 +77,6 @@ code {
 
 .sitewrap #main article {
   box-shadow: 0px 0px 5px #e6e6e6;
-  border-radius: 5px;
   margin-left: 15px;
   margin-right: 15px;
   border-radius: 0px;
@@ -202,22 +201,41 @@ code {
 }
 
 footer#colophon {
-  height: 150px;
-  background-color: lightgrey;
-  margin-top: 50px;
-  padding: 50px 20px;
-  font-size: 1.1em;
-  font-style: italic;
-  font-family: "Lato";
-  width: calc(100vw);
-  position: absolute;
-  left: 0px;
+  display: none;
 }
-footer#colophon .site-info {
-  text-align: center;
+
+#footer.site-footer {
+  left: 0px;
+  position: absolute;
   width: 100%;
-  width: 50%;
-  margin-left: 25%;
+  padding-top: 50px;
+  padding-bottom: 120px;
+  font-weight: 400;
+}
+#footer.site-footer .innerwrap {
+  display: block;
+  width: 75%;
+  margin: auto;
+}
+#footer.site-footer .innerwrap #first, #footer.site-footer .innerwrap #second, #footer.site-footer .innerwrap #third {
+  display: inline-block;
+  float: initial;
+  width: 30%;
+  vertical-align: top;
+}
+#footer.site-footer .innerwrap #first ul, #footer.site-footer .innerwrap #second ul, #footer.site-footer .innerwrap #third ul {
+  list-style: none;
+  margin-left: 0px;
+}
+@media only screen and (max-width: 690px) {
+  #footer.site-footer .innerwrap #first, #footer.site-footer .innerwrap #second, #footer.site-footer .innerwrap #third {
+    width: 100%;
+    display: block;
+    margin-left: 0px;
+  }
+}
+#footer.site-footer .innerwrap #first .widget, #footer.site-footer .innerwrap #second .widget, #footer.site-footer .innerwrap #third .widget {
+  text-align: initial;
 }
 
 .sitewrap #headernav {

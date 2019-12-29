@@ -1,18 +1,36 @@
 footer#colophon {
-  height: 150px;
-  background-color: $color-grayscale-light;
-  margin-top: 50px;
-  padding: 50px 20px;
-  font-size: 1.1em;
-  font-style: italic;
-  font-family: $typography-accent-font;
-  width: calc(100vw);
-  position: absolute;
+  display: none;
+}
+
+#footer.site-footer {
   left: 0px;
-  .site-info {
-    text-align: center;
-    width: 100%;
-    width: 50%;
-    margin-left: 25%;
+  // position: fixed;
+  position: absolute;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 120px;
+  font-weight: 400;
+  .innerwrap {
+    display: block;
+    width: 75%;
+    margin: auto;
+    #first, #second, #third {
+      ul {
+        list-style: none;
+        margin-left: 0px;
+      }
+      display: inline-block;
+      float: initial;
+      width: 30%;
+      @media only screen and (max-width: 690px) {
+        width: 100%;
+        display: block;
+        margin-left: 0px;
+      }
+      vertical-align: top;
+      .widget {
+        text-align: initial;
+      }
+    }
   }
 }
