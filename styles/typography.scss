@@ -14,9 +14,19 @@
       font-size: 20px;
     }
   }
-  h1, h2, h3 {
+  h1 {
     font-size: 1.4em;
-    color: $color-grayscale-dark;
+
+  }
+  h2 {
+    color: $color-main;
+    font-size: 1.3em;
+  }
+  h3 {
+    color: $color-main-light;
+    font-size: 1.2em;
+  }
+  h1, h2, h3 {
     font-family: $typography-header-font;
     margin-bottom: 15px;
     margin-top: 40px;

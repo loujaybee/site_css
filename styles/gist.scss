@@ -1,5 +1,53 @@
-.gist-file {
-    td:first-child {
-        border: none;
-    }
-}
+body {
+    margin: 20px;
+    font: 16px 'Open Sans', sans-serif;
+  }
+
+  body .gist .gist-file {
+    margin-bottom: 0;
+    border: 0px solid white;
+    border-radius: 50px;
+  }
+
+  body .gist .gist-data {
+    border-radius: 0;
+    background-color: #f4f4f4;
+    border-radius: 4px;
+    padding: 20px 15px;
+  }
+
+  body .gist .highlight {
+    background-color: transparent;
+    font-family: 'Droid Sans Mono', monospace;
+    font-size: 14px;
+  }
+
+  body .gist .highlight td {
+    padding: 5px 15px !important;
+    line-height: 1;
+    font-family: inherit;
+    font-size: inherit;
+  }
+
+  body .gist tr:first-child td {
+    padding-top: 15px !important;
+  }
+
+  body .gist tr:last-child td {
+    padding-bottom: 15px !important;
+  }
+
+  body .gist .blob-num {
+    color: #38b9e5;
+    display: none;
+    background-color: #394d8d;
+    pointer-events: none;
+  }
+
+  body .gist .gist-meta {
+    display: none;
+  }
+
+  table.highlight.tab-size.js-file-line-container {
+      border-radius: 19px;
+  }

@@ -14,6 +14,9 @@
           color: $color-accent;
           cursor: pointer;
         }
+        > a:hover {
+          color: white;
+        }
       }
       .site-description {
         font-family: $typography-accent-font;
@@ -21,22 +24,28 @@
         letter-spacing: 2px;
         font-style: italic;
         font-weight: 900;
-        font-size: 1.1em;
+        font-size: 1em;
         color: white;
       }
     }
-    #primary-menu {
-      #menu-main {
-        li {
-          a {
-            padding: 15px 13px;
-            color: white;
-            letter-spacing: 1px;
-            font-family: $typography-accent-font;
-            font-weight: 300;
+    .getnoticed-mainnav {
+      width: initial;
+      #primary-menu {
+        #menu-main {
+          li.current-menu-item > a {
+            color: $color-accent;
           }
-          a:hover {
-            background-color: $color-main-light;
+          li {
+            a {
+              padding: 15px 7px;
+              color: white;
+              letter-spacing: 1px;
+              font-family: $typography-accent-font;
+              font-weight: 300;
+            }
+            a:hover {
+              background-color: $color-main-light;
+            }
           }
         }
       }

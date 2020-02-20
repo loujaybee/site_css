@@ -1,11 +1,23 @@
 .sitewrap {
   #main {
     #content {
+      br {
+        display: none;
+      }
+      label {
+        // text-transform: uppercase;
+      }
       #mc_embed_signup {
+        font-family: 'Lora';
+        margin: 15px 0px;
+        padding: 20px 0 20px 0px;
         background-color: $color-accent;
         color: white;
+        .mc-field-group {
+          padding: 0px;
+        }
         #mc-embedded-subscribe {
-          width: 75%;
+          width: 200px;
           color: black;
           font-family: Montserrat;
           text-transform: uppercase;
