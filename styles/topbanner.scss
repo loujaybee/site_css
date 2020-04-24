@@ -1,0 +1,33 @@
+#top_search, #getnoticed-featured-area {
+    display:none;
+}
+
+#categories-menu {
+    border-bottom: 1px solid #d8d8d8;
+    border-right: 1px solid #d8d8d8;
+    border-left: 1px solid #d8d8d8;
+    margin: 0px 15px 10px 15px;
+    #menu-bottom {
+        width: 100%;
+        margin: 0;
+        li.menu-item {
+            width: 25%;
+            &.current-menu-item {
+                a {
+                    background: #1c2c5b;
+                    color:#f6f6f6;
+                    text-shadow: none;
+                }
+            }
+            a {
+                background:#f6f6f6;
+                border: none;
+                padding: 4px;
+                &:hover {
+                    background: $color-accent;
+                    color:#f6f6f6;
+                }
+            }
+        }
+    }
+}

@@ -18,6 +18,7 @@ $typography-accent-font: 'Lato';
 
 @import 'styles/related_posts';
 @import 'styles/typography';
+@import 'styles/homepage';
 @import 'styles/elements';
 @import 'styles/code';
 @import 'styles/nav_below';
@@ -34,7 +35,11 @@ $typography-accent-font: 'Lato';
 @import 'styles/sidebar_subscribe';
 @import 'styles/share_bottom';
 @import 'styles/search_bar';
+@import 'styles/topbanner';
 
+body {
+  color: red;
+}
 
 .sharedaddy, .bitnami-corner-image-div {
   display: none;
@@ -55,5 +60,6 @@ $typography-accent-font: 'Lato';
 }
 
 body {
-  background-color: #e4e4e4 !important;
+  background-color: #f6f6f6 !important;
+  margin: 0px;
 }

@@ -1,0 +1,40 @@
+.page-id-8073 {
+    #top_search {
+        display: none;
+    }
+    .sitewrap #main article {
+        .panel {
+            background: white;
+            margin-bottom: 40px;
+            padding: 1px 40px;
+            border-radius: 2px;
+        }
+        background: none;
+        padding-top: 0px;
+        border: none;
+        box-shadow: none;
+        header {
+            display: none;
+        }
+        .entry-content {
+            padding: 0px;
+        }
+        #post-grid-8093 {
+            margin-top: -50px;
+        }
+        .post-grid {
+            .title_link {
+                font-family: "Montserrat";
+            }
+            .read_more {
+                display: none;
+            }
+            .excerpt {
+                line-height: 1.6em;
+                font-family:Lora;
+                font-size:19.2px;
+            }
+        }
+    }
+}
+
