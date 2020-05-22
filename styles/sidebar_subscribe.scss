@@ -1,7 +1,7 @@
 #secondary {
   aside {
     &.widget_getnoticed_subscribe {
-      border: 1px solid #e2e2e2 !important;
+      border: 1px solid $color-grayscale-very-light;
       padding: 0px;
       p {
         font-weight: 700;
@@ -14,7 +14,7 @@
         color: $color-main;
       }
       .content {
-        background-color: $color-accent !important;
+        // background-color: $color-accent !important;
         padding-right: 30px;
       }
       .formwrap {
@@ -23,17 +23,16 @@
           display: none;
         }
         #mc-embedded-subscribe-form {
-          background: $color-accent;
+          // background: $color-accent;
         }
         .mc-field-group {
           label {
-            font-size: 1.2em;
+            color: initial;
             font-family: $typography-accent-font;
           }
           input {
-            height: 40px;
-            border: 0px;
-            border-radius: 0px;
+            height: 30px;
+            border-radius: 2px;
           }
           margin-top: 0px;
           padding-bottom: 0px;
@@ -41,15 +40,17 @@
           width: 100%;
         }
         #mc-embedded-subscribe.button {
+          border-radius: 0px;
           text-transform: uppercase;
           margin: auto;
           width: 100%;
           font-weight: 700;
           margin-bottom: 15px;
+          margin-top: 10px;
           border: none;
-          background: white;
+          border-bottom: 3px solid green;
           box-shadow: none !important;
-          color: #363333 !important;
+          color: $color-main;
           font-family: Montserrat;
           letter-spacing: 1px;
         }

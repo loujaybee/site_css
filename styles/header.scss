@@ -8,7 +8,7 @@
       margin-right: 0px;
       max-width: 100%;
       width: 100%;
-      padding: 0px 100px 0px 100px;
+      padding: 0px 0px 0px 30px;
       box-sizing: border-box;
       background-color: $color-main;
       padding-bottom: 15px;
@@ -17,8 +17,8 @@
         .site-title {
           font-family: $typography-header-font;
           > a {
+            font-size: 0.8em;
             line-height: 1em;
-            font-size: 1em;
             color: $color-accent;
             cursor: pointer;
             font-weight: 900;
@@ -34,7 +34,7 @@
           letter-spacing: 2px;
           // font-style: italic;
           font-weight: 500;
-          font-size: 1em;
+          font-size: 0.8em;
           color: white;
         }
       }
@@ -52,6 +52,7 @@
                 color: white;
                 letter-spacing: 1px;
                 font-family: $typography-header-font;
+                font-size: 0.8em;
               }
               a:hover {
                 background-color: $color-main-light;

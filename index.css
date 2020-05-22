@@ -280,6 +280,7 @@ body .gist .gist-data {
   background-color: #efeeee;
   border-bottom: 0px;
   padding: 20px 15px;
+  margin: 30px;
 }
 
 body .gist .highlight {
@@ -368,7 +369,7 @@ footer#colophon {
   margin-right: 0px;
   max-width: 100%;
   width: 100%;
-  padding: 0px 100px 0px 100px;
+  padding: 0px 0px 0px 30px;
   box-sizing: border-box;
   background-color: #1c2c5b;
   padding-bottom: 15px;
@@ -381,8 +382,8 @@ footer#colophon {
   font-family: "Montserrat";
 }
 .sitewrap #headernav > .innerwrap header .site-title > a {
+  font-size: 0.8em;
   line-height: 1em;
-  font-size: 1em;
   color: #37bae5;
   cursor: pointer;
   font-weight: 900;
@@ -395,7 +396,7 @@ footer#colophon {
   hyphens: auto;
   letter-spacing: 2px;
   font-weight: 500;
-  font-size: 1em;
+  font-size: 0.8em;
   color: white;
 }
 .sitewrap #headernav > .innerwrap .getnoticed-mainnav {
@@ -410,6 +411,7 @@ footer#colophon {
   color: white;
   letter-spacing: 1px;
   font-family: "Montserrat";
+  font-size: 0.8em;
 }
 .sitewrap #headernav > .innerwrap .getnoticed-mainnav #primary-menu #menu-main li a:hover {
   background-color: #384d8d;
@@ -551,7 +553,7 @@ footer#colophon {
 }
 
 #secondary aside.widget_getnoticed_subscribe {
-  border: 1px solid #e2e2e2 !important;
+  border: 1px solid #ededed;
   padding: 0px;
 }
 #secondary aside.widget_getnoticed_subscribe p {
@@ -565,7 +567,6 @@ footer#colophon {
   color: #1c2c5b;
 }
 #secondary aside.widget_getnoticed_subscribe .content {
-  background-color: #37bae5 !important;
   padding-right: 30px;
 }
 #secondary aside.widget_getnoticed_subscribe .formwrap {
@@ -574,9 +575,6 @@ footer#colophon {
 #secondary aside.widget_getnoticed_subscribe .formwrap .indicates-required {
   display: none;
 }
-#secondary aside.widget_getnoticed_subscribe .formwrap #mc-embedded-subscribe-form {
-  background: #37bae5;
-}
 #secondary aside.widget_getnoticed_subscribe .formwrap .mc-field-group {
   margin-top: 0px;
   padding-bottom: 0px;
@@ -584,24 +582,25 @@ footer#colophon {
   width: 100%;
 }
 #secondary aside.widget_getnoticed_subscribe .formwrap .mc-field-group label {
-  font-size: 1.2em;
+  color: initial;
   font-family: "Tinos";
 }
 #secondary aside.widget_getnoticed_subscribe .formwrap .mc-field-group input {
-  height: 40px;
-  border: 0px;
-  border-radius: 0px;
+  height: 30px;
+  border-radius: 2px;
 }
 #secondary aside.widget_getnoticed_subscribe .formwrap #mc-embedded-subscribe.button {
+  border-radius: 0px;
   text-transform: uppercase;
   margin: auto;
   width: 100%;
   font-weight: 700;
   margin-bottom: 15px;
+  margin-top: 10px;
   border: none;
-  background: white;
+  border-bottom: 3px solid green;
   box-shadow: none !important;
-  color: #363333 !important;
+  color: #1c2c5b;
   font-family: Montserrat;
   letter-spacing: 1px;
 }
@@ -659,7 +658,6 @@ footer#colophon {
   width: 100%;
   margin: 0;
   margin-top: -40px;
-  padding: 0px 10%;
   background-color: white;
   box-sizing: border-box;
 }
@@ -672,6 +670,7 @@ footer#colophon {
   text-shadow: none;
 }
 #categories-menu #menu-bottom li.menu-item a {
+  text-transform: uppercase;
   font-family: "Montserrat";
   background: #f6f6f6;
   background: inherit;
