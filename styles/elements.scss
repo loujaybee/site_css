@@ -2,7 +2,7 @@
   img {
     margin-top: 20px;
     margin-bottom: 20px;
-    box-shadow: 0px 0px 10px #d0d0d0;
+    box-shadow: 0px 0px 5px #d0d0d0;
     &.no-box-shadow {
       box-shadow: none;
     }
@@ -19,6 +19,13 @@
   }
 
   .abh_box {
+    padding: 0px;
+    .abh_tabs {
+      display: none;
+    }
+    .abh_tab_content .abh_text .abh_description {
+      font-size: 0.9em !important;
+    }
     p > a, li > a{
       color:#4382c4;
     }

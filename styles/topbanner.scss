@@ -5,7 +5,7 @@
 #categories-menu {
     margin: 0px 15px 20px 15px;
     #menu-bottom {
-        border-bottom: 1px solid #d8d8d8;
+        border-bottom: 1px solid $color-grayscale-very-light;
         position: absolute;
         left: 0;
         width: 100%;
@@ -24,6 +24,7 @@
                 }
             }
             a {
+                font-family: $typography-header-font;
                 background:#f6f6f6;
                 background: inherit;
                 border: none;

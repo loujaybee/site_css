@@ -1,3 +1,4 @@
+$color-grayscale-very-light: #ededed;
 $color-grayscale-light: lightgrey;
 $color-grayscale-dark: #4c4c4c;
 
@@ -10,11 +11,12 @@ $color-main-dark: #17244b;
 $color-accent: #37bae5;
 
 $typography-header-font: 'Montserrat';
-$typography-accent-font: 'Lato';
+$typography-accent-font: 'Tinos';
 
-@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i');
-@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,400,400i,700,900');
-@import url('https://fonts.googleapis.com/css?family=Montserrat:900');
+
+@import url('https://fonts.googleapis.com/css?family=Tinos:400,400i,700,700i');
+// @import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,400,400i,700,900');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,700,900');
 
 @import 'styles/related_posts';
 @import 'styles/typography';
@@ -61,6 +63,6 @@ $typography-accent-font: 'Lato';
 }
 
 body {
-  background-color: #f6f6f6 !important;
+  // background-color: #f6f6f6 !important;
   margin: 0px;
 }

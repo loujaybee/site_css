@@ -4,6 +4,7 @@
       border: 1px solid #e2e2e2 !important;
       padding: 0px;
       p {
+        font-weight: 700;
         margin-bottom: 5px;
         text-align: center;
         font-family: $typography-header-font;
@@ -27,7 +28,6 @@
         .mc-field-group {
           label {
             font-size: 1.2em;
-            text-transform: uppercase;
             font-family: $typography-accent-font;
           }
           input {
@@ -44,6 +44,7 @@
           text-transform: uppercase;
           margin: auto;
           width: 100%;
+          font-weight: 700;
           margin-bottom: 15px;
           border: none;
           background: white;

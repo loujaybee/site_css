@@ -3,8 +3,9 @@ footer#colophon {
 }
 
 #footer.site-footer {
+  background: $color-grayscale-very-light;
   left: 0px;
-  // position: fixed;
+  margin-top: 75px;
   position: absolute;
   width: 100%;
   padding-top: 50px;
