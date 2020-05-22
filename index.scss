@@ -37,8 +37,9 @@ $typography-accent-font: 'Lato';
 @import 'styles/search_bar';
 @import 'styles/topbanner';
 
-body {
-  color: red;
+
+.wrap {
+  max-width: 1000px;
 }
 
 .sharedaddy, .bitnami-corner-image-div {

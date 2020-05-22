@@ -1,67 +1,77 @@
 .sitewrap {
   #headernav {
-    box-shadow: 4px 2px 5px $color-grayscale-light;
-    background-color: $color-main;
-    padding-bottom: 15px;
-    box-shadow: 5px 5px 5px #e6e6e6;
-    header {
-      margin-left: 15px;
-      .site-title {
-        font-family: $typography-header-font;
-        > a {
-          line-height: 1em;
-          font-size: 1em;
-          color: $color-accent;
-          cursor: pointer;
+    margin-bottom: 40px;
+    > .innerwrap {
+      max-width: 1200px;
+      width: 96%;
+      margin-left: 0px;
+      margin-right: 0px;
+      max-width: 100%;
+      width: 100%;
+      padding: 0px 100px 0px 100px;
+      box-sizing: border-box;
+      background-color: $color-main;
+      padding-bottom: 15px;
+      header {
+        margin-left: 15px;
+        .site-title {
+          font-family: $typography-header-font;
+          > a {
+            line-height: 1em;
+            font-size: 1em;
+            color: $color-accent;
+            cursor: pointer;
+          }
+          > a:hover {
+            color: white;
+          }
         }
-        > a:hover {
+        .site-description {
+          font-family: $typography-accent-font;
+          hyphens: auto;
+          letter-spacing: 2px;
+          font-style: italic;
+          font-weight: 900;
+          font-size: 1em;
           color: white;
         }
       }
-      .site-description {
-        font-family: $typography-accent-font;
-        hyphens: auto;
-        letter-spacing: 2px;
-        font-style: italic;
-        font-weight: 900;
-        font-size: 1em;
-        color: white;
-      }
-    }
-    .getnoticed-mainnav {
-      width: initial;
-      #primary-menu {
-        #menu-main {
-          li.current-menu-item > a {
-            color: $color-accent;
-          }
-          li {
-            a {
-              padding: 15px 7px;
-              color: white;
-              letter-spacing: 1px;
-              font-family: $typography-accent-font;
-              font-weight: 300;
+      .getnoticed-mainnav {
+        right: 30px;
+        width: initial;
+        #primary-menu {
+          #menu-main {
+            li.current-menu-item > a {
+              color: $color-accent;
             }
-            a:hover {
-              background-color: $color-main-light;
+            li {
+              a {
+                padding: 15px 7px;
+                color: white;
+                letter-spacing: 1px;
+                font-family: $typography-accent-font;
+                font-weight: 300;
+              }
+              a:hover {
+                background-color: $color-main-light;
+              }
             }
           }
         }
       }
-    }
-    /* MOBILE CSS */
-    @media only screen and (max-width: 690px) {
-      header {
-        width: 90%;
-      }
-      .site-header {
-        display: block;
-      }
-      .mobile_actions {
-        position: absolute;
-        right: 0px;
-        top: 32px;
+      /* MOBILE CSS */
+      @media only screen and (max-width: 690px) {
+        header {
+          width: 90%;
+        }
+        .site-header {
+          display: block;
+        }
+        .mobile_actions {
+          position: absolute;
+          right: 0px;
+          top: 32px;
+        }
       }
     }
   }
