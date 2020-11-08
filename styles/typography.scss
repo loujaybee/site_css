@@ -1,5 +1,6 @@
 
 #content {
+  padding: 20px;
   line-height: 1.6em;
   font-family: 'Tinos';
   font-size: 1.1em;
@@ -14,6 +15,7 @@
     }
   }
   h1 {
+    color: $color-main;
     font-size: 1.3em;
     font-weight: 900;
   }
@@ -23,9 +25,9 @@
     font-weight: 900;
   }
   h3 {
-    color: $color-main-light;
+    color: $color-main;
+    font-weight: 100;
     font-size: 1em;
-    font-weight: 700;
   }
   h1, h2, h3 {
     font-family: $typography-header-font;

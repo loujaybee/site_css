@@ -31,9 +31,10 @@
       }
     }
     .widget-title {
-      border-top: 2px solid #384d8d;
-      border-bottom: 2px solid #384d8d;
+      border: 2px solid #384d8d;
       background: none;
+      margin-top: 40px;
+      margin-bottom: 15px;
       letter-spacing: 1px;
       color: #384d8d;
       font-family: $typography-header-font;

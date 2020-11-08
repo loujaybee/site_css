@@ -1,5 +1,26 @@
 @import url("https://fonts.googleapis.com/css?family=Tinos:400,400i,700,700i");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:500,700,900");
+.author .getnoticed-social {
+  display: none;
+}
+.author #content header {
+  padding: 30px;
+}
+.author #content h1 {
+  margin-top: 0px;
+}
+.author #content .author-jobtitle {
+  display: none;
+}
+.author #content img.avatar {
+  height: 200px;
+  width: 200px;
+}
+.author #content .author-info {
+  padding: 0px;
+  background-color: white;
+}
+
 #jp-relatedposts.jp-relatedposts {
   margin: 0px -30px 0px -30px;
   padding: 0px 30px;
@@ -13,6 +34,7 @@
 }
 
 #content {
+  padding: 20px;
   line-height: 1.6em;
   font-family: "Tinos";
   font-size: 1.1em;
@@ -26,6 +48,7 @@
   font-size: 20px;
 }
 #content h1 {
+  color: #1c2c5b;
   font-size: 1.3em;
   font-weight: 900;
 }
@@ -35,9 +58,9 @@
   font-weight: 900;
 }
 #content h3 {
-  color: #384d8d;
+  color: #1c2c5b;
+  font-weight: 100;
   font-size: 1em;
-  font-weight: 700;
 }
 #content h1, #content h2, #content h3 {
   font-family: "Montserrat";
@@ -98,7 +121,7 @@
   box-shadow: inset 0 -6px 0 #c0e6f7;
 }
 #content .abh_box {
-  padding: 0px;
+  padding: 0px !important;
   font-family: inherit;
 }
 #content .abh_box .abh_tabs {
@@ -116,9 +139,8 @@
 
 code {
   color: white;
-  font-size: initial;
   background-color: #37bae5;
-  border-radius: 5px;
+  border-radius: 2px;
   padding: 1px 5px;
 }
 
@@ -135,8 +157,6 @@ section.full-width {
 }
 
 .sitewrap #main article {
-  margin-left: 15px;
-  margin-right: 15px;
   border-radius: 0px;
   background: none;
 }
@@ -333,6 +353,11 @@ footer#colophon {
   padding-bottom: 120px;
   font-weight: 400;
 }
+@media only screen and (max-width: 690px) {
+  #footer.site-footer {
+    position: initial;
+  }
+}
 #footer.site-footer .innerwrap {
   display: block;
   width: 75%;
@@ -369,20 +394,21 @@ footer#colophon {
   margin-right: 0px;
   max-width: 100%;
   width: 100%;
-  padding: 0px 0px 0px 30px;
   box-sizing: border-box;
   background-color: #1c2c5b;
-  padding-bottom: 15px;
+  padding-bottom: 0px;
+  /* MIDDLE WIDTH CSS */
   /* MOBILE CSS */
 }
 .sitewrap #headernav > .innerwrap header {
-  margin-left: 15px;
+  margin-left: 30px;
 }
 .sitewrap #headernav > .innerwrap header .site-title {
   font-family: "Montserrat";
 }
 .sitewrap #headernav > .innerwrap header .site-title > a {
-  font-size: 0.8em;
+  letter-spacing: 1px;
+  font-size: 0.7em;
   line-height: 1em;
   color: #37bae5;
   cursor: pointer;
@@ -396,7 +422,7 @@ footer#colophon {
   hyphens: auto;
   letter-spacing: 2px;
   font-weight: 500;
-  font-size: 0.8em;
+  font-size: 0.55em;
   color: white;
 }
 .sitewrap #headernav > .innerwrap .getnoticed-mainnav {
@@ -407,14 +433,20 @@ footer#colophon {
   color: #37bae5;
 }
 .sitewrap #headernav > .innerwrap .getnoticed-mainnav #primary-menu #menu-main li a {
-  padding: 15px 7px;
+  padding: 15px 10px;
   color: white;
   letter-spacing: 1px;
   font-family: "Montserrat";
-  font-size: 0.8em;
+  font-size: 0.7em;
 }
 .sitewrap #headernav > .innerwrap .getnoticed-mainnav #primary-menu #menu-main li a:hover {
   background-color: #384d8d;
+}
+@media only screen and (max-width: 1000px) {
+  .sitewrap #headernav > .innerwrap .getnoticed-mainnav #primary-menu #menu-main li a {
+    padding-top: 23px;
+    font-size: 0.5em;
+  }
 }
 @media only screen and (max-width: 690px) {
   .sitewrap #headernav > .innerwrap header {
@@ -430,14 +462,18 @@ footer#colophon {
   }
 }
 
-.category .page-header {
-  margin: 0px 15px 15px 15px;
+.category #content .page-header {
+  padding: 0px 25px;
   border: 0px;
-  box-shadow: 4px 4px 10px #f1f1f1;
   border-radius: 0px;
 }
-.category .page-header h1 {
-  margin: 15px;
+.category #content .page-header h1 {
+  margin: 0px;
+  color: #1c2c5b;
+  font-size: 2em;
+  border-bottom: 3px solid #1c2c5b;
+  text-align: center;
+  padding-bottom: 10px;
 }
 
 .sitewrap #main header.entry-header {
@@ -455,7 +491,7 @@ footer#colophon {
 }
 @media screen and (max-width: 600px) {
   .sitewrap #main header.entry-header h1.entry-title {
-    padding: 20px;
+    padding: 20px 0px;
     font-size: 1.2em;
   }
 }
@@ -477,25 +513,25 @@ footer#colophon {
   margin: 0px;
 }
 
-#ocnav {
-  font-family: "Tinos";
+#ocnav #ocsearch {
+  display: none;
 }
 #ocnav h3 {
-  background-color: #1c2c5b;
-  padding-top: 20px;
-  padding-bottom: 10px;
-  color: white;
-  font-size: 1.5em;
+  display: none;
 }
 #ocnav li a {
   background-color: #384d8d;
-  font-family: "Tinos";
-  background-color: #384d8d;
-  font-style: italic;
-  color: white !important;
-  font-size: 1.2em;
-  font-weight: 600;
+  font-family: "Montserrat";
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: white;
+  padding: 10px 25px;
+  color: #384d8d !important;
+  font-size: 1em;
   letter-spacing: 1px;
+}
+#ocnav li a:hover {
+  background-color: #ededed;
 }
 
 #disqus_thread {
@@ -531,9 +567,10 @@ footer#colophon {
   margin-bottom: -10px;
 }
 #secondary aside .widget-title {
-  border-top: 2px solid #384d8d;
-  border-bottom: 2px solid #384d8d;
+  border: 2px solid #384d8d;
   background: none;
+  margin-top: 40px;
+  margin-bottom: 15px;
   letter-spacing: 1px;
   color: #384d8d;
   font-family: "Montserrat";
@@ -662,7 +699,7 @@ footer#colophon {
   box-sizing: border-box;
 }
 #categories-menu #menu-bottom li.menu-item {
-  width: 25%;
+  width: 16.5%;
 }
 #categories-menu #menu-bottom li.menu-item.current-menu-item a {
   background: #1c2c5b;
@@ -686,6 +723,11 @@ footer#colophon {
   max-width: 1000px;
 }
 
+@media (max-width: 800px) {
+  .wrap {
+    width: initial;
+  }
+}
 .sharedaddy, .bitnami-corner-image-div {
   display: none;
 }
