@@ -895,6 +895,8 @@ footer#colophon {
 }
 
 body {
+  max-width: 100%;
+  overflow-x: hidden;
   color: red;
   margin: 0px;
 }
