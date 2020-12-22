@@ -181,9 +181,7 @@
   display: block;
 }
 .page-id-8073 #page section #content article .entry-content .panel.getstarted div.image {
-  width: 75%;
-  margin-left: 12%;
-  margin-right: 12%;
+  width: 100%;
   display: inline-block;
   box-shadow: none;
   vertical-align: top;
@@ -192,7 +190,13 @@
   transform: scale(1.05);
   transition: all 100ms ease-in;
 }
-@media only screen and (min-width: 690px) {
+@media only screen and (min-width: 900px) {
+  .page-id-8073 #page section #content article .entry-content .panel.getstarted div.image {
+    width: 44%;
+    margin-left: 5%;
+  }
+}
+@media only screen and (min-width: 1400px) {
   .page-id-8073 #page section #content article .entry-content .panel.getstarted div.image {
     width: 30%;
     margin-right: 1%;
@@ -208,7 +212,7 @@
   margin: 35px 0px 0px 0px;
 }
 .page-id-8073 #page section #content article .entry-content .panel h2 {
-  font-size: 1.5em !important;
+  font-size: 1.8em !important;
 }
 .page-id-8073 #page section #content article .entry-content .panel p {
   font-size: 1.1em;
