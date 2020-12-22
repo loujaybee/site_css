@@ -71,7 +71,7 @@ $typography-accent-font: 'Tinos';
 
 body {
   max-width: 100%;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   color: red;
   margin: 0px;
 }
