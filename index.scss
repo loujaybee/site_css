@@ -40,6 +40,11 @@ $typography-accent-font: 'Tinos';
 @import 'styles/search_bar';
 @import 'styles/topbanner';
 
+#main {
+  #primary {
+    width: 100%;
+  }
+}
 
 .wrap {
   max-width: 1000px;
@@ -72,6 +77,6 @@ $typography-accent-font: 'Tinos';
 body {
   max-width: 100%;
   overflow-x: hidden !important;
-  color: red;
+  color: green;
   margin: 0px;
 }

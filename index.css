@@ -869,6 +869,10 @@ footer#colophon {
   color: #f6f6f6;
 }
 
+#main #primary {
+  width: 100%;
+}
+
 .wrap {
   max-width: 1000px;
 }
@@ -897,7 +901,7 @@ footer#colophon {
 body {
   max-width: 100%;
   overflow-x: hidden !important;
-  color: red;
+  color: green;
   margin: 0px;
 }
 
