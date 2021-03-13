@@ -203,6 +203,10 @@
     margin-left: 1%;
   }
 }
+.page-id-8073 #page section #content article .entry-content .panel.latest .lcp_catlist {
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
 .page-id-8073 #page section #content article .entry-content .panel.latest a {
   font-family: "Montserrat";
   font-weight: 700;
@@ -231,6 +235,9 @@
 }
 .page-id-8073 #page section #content article .entry-content .panel.hero {
   color: #1c2c5b;
+  background-image: url("https://www.thedevcoach.co.uk/wp-content/uploads/2021/03/header-home.png");
+  background-size: cover;
+  background-position: center top;
 }
 .page-id-8073 #page section #content article .entry-content .panel.hero button {
   background-color: #1c2c5b;
@@ -238,10 +245,10 @@
 }
 @media only screen and (min-width: 1000px) {
   .page-id-8073 #page section #content article .entry-content .panel.hero p {
-    width: 60%;
+    width: 40%;
   }
   .page-id-8073 #page section #content article .entry-content .panel.hero h2 {
-    width: 80%;
+    width: 60%;
   }
 }
 @media only screen and (max-width: 690px) {
